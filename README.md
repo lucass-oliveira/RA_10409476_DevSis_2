@@ -9,13 +9,6 @@ Lucas Bittencourt de Oliveira, TIA: 42219851 || RA: 10409476
 - [Autores](#autores)
 - [Descrição do projeto](#descrição-do-projeto)
 - [Cenário de negócio / Concepção](#cenário-de-negócio/concepção:)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
 
 # Autores
 
