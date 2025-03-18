@@ -15,3 +15,7 @@ Lucas Bittencourt de Oliveira, TIA: 42219851 || RA: 10409476
 # Autores
 
 * Lucas Bittencourt de Oliveira - TIA 42219851/RA 10409476
+
+# Descrição do projeto
+
+*O sistema será um software de cadastro de funcionários, permitindo centralização das informações, validação automática de dados, controle de acesso por níveis, busca eficiente e gestão simplificada para facilitar a administração de recursos humanos. *
