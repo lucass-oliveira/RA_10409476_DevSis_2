@@ -8,13 +8,32 @@ Lucas Bittencourt de Oliveira, TIA: 42219851 || RA: 10409476
 
 - [Autores](#autores)
 - [Descrição do projeto](#descrição-do-projeto)
-- [Definição de demanda de desenvolvimento](#definição-de-demanda-de-desenvolvimento)
+- [Cenário de negócio / Concepção: ](#Cenário-de-negócio/Concepção: )
 - [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
 - [Descrição dos casos de uso](#descrição-dos-casos-de-uso)
 
 # Autores
 
 * Lucas Bittencourt de Oliveira - TIA 42219851/RA 10409476
+
+# Cenário de negócio / Concepção: 
+
+**O problema ou oportunidade percebida:**
+
+O problema identificado é a gestão ineficiente das informações dos funcionários em
+empresas de médio e grande porte, onde muitas ainda utilizam processos manuais ou
+sistemas descentralizados. Isso resulta em falhas na comunicação, perda de
+informações, retrabalho e baixa eficiência operacional. 
+
+
+**A razão ou justificativa para esta demanda:**
+
+A necessidade de um sistema informatizado surge para reduzir erros de dados,
+melhorar a segurança das informações, otimizar a administração de funções cruciais e
+garantir um controle hierárquico eficiente de acessos e permissões. 
+
+
+
 
 # Descrição do projeto
 
