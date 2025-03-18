@@ -16,7 +16,7 @@ Lucas Bittencourt de Oliveira, TIA: 42219851 || RA: 10409476
 
 * Lucas Bittencourt de Oliveira - TIA 42219851/RA 10409476
 
-# Cenário de negócio / Concepção: 
+# Cenário-de-negócio/Concepção: 
 
 **O problema ou oportunidade percebida:**
 
