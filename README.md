@@ -8,6 +8,8 @@ Lucas Bittencourt de Oliveira, TIA: 42219851 || RA: 10409476
 
 - [Autores](#autores)
 - [Cenário de Negocio & Concepção](#cenário-de-negocio-&-concepção)
+- [Modelagem de negócio e prototipação](#modelagem-de-negócio-e-prototipação)
+- [Modelagem de negócio e prototipação](#Modelagem-de-negócio-e-prototipação)
 
 # Autores
 
@@ -51,9 +53,110 @@ O sistema será um software de cadastro de funcionários, permitindo centraliza�
 -  Busca eficiente: Permite localização rápida de funcionários pelo nome ou ID
 -  Usabilidade: Interface intuitiva e fácil de usar para garantir adoção pelos usuários.
 -  Segurança: Proteção de dados sensíveis contra acessos não autorizados.
--  Eficiência operacional: Redução do tempo gasto em processos manuais e eliminação de retrabalho. 
+-  Eficiência operacional: Redução do tempo gasto em processos manuais e eliminação de retrabalho.
+
+# Modelagem de negócio e prototipação
+
+**Metodologia de Modelagem**
+A modelagem de domínio foi realizada com base na abordagem orientada a objetos, visando estruturar o
+sistema de maneira modular e reutilizável. Foram utilizadas técnicas de modelagem como UML (Unified
+Modeling Language) e padrões de análise para definir as entidades e suas relações, garantindo coerência e
+expansibilidade do sistema. 
+
+**Estrutura da Modelagem**
+
+A modelagem foi estruturada em:
+
+- Entidades Principais: Representam os principais elementos do sistema.
+- Relacionamentos: Definem como as entidades interagem entre si.
+- Regras de Negócio: Determinam as restrições e comportamentos esperados do sistema.
+
+**2. Entidades Principais**
+
+As seguintes entidades foram identificadas e modeladas: 
+- Usuário
+- ID
+- Nome
+- Email
+- Senha (criptografada)
+- Tipo (Gerente ou Funcionário)
+- Gerente (Especialização de Usuário)
+- Lista de Funcionários supervisionados
+- Permissão para edição e exclusão de registros
+- Funcionário (Especialização de Usuário)
+- CPF
+- CEP
+- Endereço (preenchido automaticamente via API ViaCEP)
+- ID do Gerente Responsável
+- Autenticação
+- Processo de login e validação de credenciais
+- Cadastro
+- Permite a criação de novos usuários no sistema
+- Sistema de Busca
+- Localiza funcionários pelo nome ou ID
+- Disponibiliza opções de edição e exclusão apenas para gerentes
+- Validação de Dados
+- Notificações
+- Relatórios
+- Gera análises sobre os dados de funcionários e gerentes
+- Exporta relatórios em PDF e CSV
+
+  **3. Padrões de Análise Utilizados**
+
+- A modelagem utilizou os seguintes padrões:
+- Padrão MVC (Model-View-Controller): Separando a lógica de negócio da interface gráfica
+para facilitar a manutenção e expansão.
+- Padrão Repository: Para gerenciar o acesso aos dados no banco PostgreSQL de forma
+desacoplada.
+- Padrão Singleton: Para garantir uma única instância do gerenciador de conexão ao banco de
+dados.
+- Padrão Observer: Para implementar o sistema de notificações de forma eficiente. 
 
 
+**4. Modelagem Baseada em Casos de Uso**
+
+- Os casos de uso ajudaram a definir os comportamentos do sistema. Alguns exemplos:
+- Cadastro de Funcionários e Gerentes
+- Entrada: Dados do usuário
+- Processamento: Validação de CPF e CEP, associação com gerente
+- Saída: Registro criado com sucesso
+- Login e Autenticação
+- Entrada: Credenciais do usuário
+- Processamento: Verificação de senha e permissões
+- Saída: Acesso concedido ou negado
+- Busca de Funcionários
+- Entrada: Nome ou ID
+- Processamento: Consulta no banco de dados
+- Saída: Lista de resultados
+- Geração de Relatórios
+- Entrada: Parâmetros de filtro (período, setor, gerente)
+- Processamento: Consolidação e formatação dos dados
+- Saída: Relatório gerado e disponibilizado para download 
+
+**5. Modificações Realizadas na Modelagem**
+
+- Com base na análise inicial, foram feitas algumas modificações:
+- Adicionada a entidade "Notificação" para alertar gerentes sobre alterações nos registros.
+- Melhoria no processo de validação de dados para garantir maior segurança e precisão.
+- Integração de API para consulta automática de endereços via CEP.
+- Inclusão da funcionalidade de exportação de relatórios em PDF e CSV.
+- Implementação do padrão Observer para otimizar as notificações. 
+
+# Modelagem de negócio e prototipação
+
+**Prototipação:**
+
+A prototipagem será utilizada para criar uma visualização inicial das telas principais do sistema, como a tela
+de login, a tela inicial e as telas de cadastro e relatórios.
+Esses protótipos ajudarão a equipe a identificar precocemente problemas de usabilidade e a validar os
+requisitos mais críticos, como busca de funcionários e controle de acesso.
+Os protótipos serão desenvolvidos apenas para as telas principais do sistema, permitindo uma visão clara
+das funcionalidades essenciais. Não será feito protótipo para todas as telas, já que o objetivo é ajustar o
+fluxo geral e garantir uma boa experiência de navegação nas partes mais importantes. 
+
+**1. Protótipo de Baixa Fidelidade (Wireframes)**
+
+- Tela Login
 
 
  
