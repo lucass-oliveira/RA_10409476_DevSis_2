@@ -8,13 +8,13 @@ Lucas Bittencourt de Oliveira, TIA: 42219851 || RA: 10409476
 
 - [Autores](#autores)
 - [Descrição do projeto](#descrição-do-projeto)
-- [Cenário de negócio / Concepção](#cenário-de-negócio/concepção:)
+- [Cenário de negócio_Concepção](#cenário-de-negócio_concepção:)
 
 # Autores
 
 * Lucas Bittencourt de Oliveira - TIA 42219851/RA 10409476
 
-# Cenário-de-negócio/Concepção: 
+# Cenário de negócio_Concepção: 
 
 **O problema ou oportunidade percebida:**
 
