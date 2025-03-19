@@ -158,7 +158,7 @@ fluxo geral e garantir uma boa experiência de navegação nas partes mais impor
 
 - Tela Login
 
-![TelaLogin](Docs/TelaLogin)
+![TelaLogin](Docs/TelaLogin.jpg)
 
 
  
