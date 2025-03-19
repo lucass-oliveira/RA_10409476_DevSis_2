@@ -160,6 +160,21 @@ fluxo geral e garantir uma boa experiência de navegação nas partes mais impor
 
 ![TelaLogin](Docs/TelaLogin.jpg)
 
+- Cabeçalho:
 
+Título: "StaffTrack" centralizado na parte superior.
+
+- Ícone:
+
+Três figuras representando pessoas com cabeças e corpos. 
+
+- Botões de Ação:
+
+Botão "Cadastro e Operações" e “Relatórios”: Centralizado abaixo das figuras.
+Botão Seletor de cargo que exibe opções de cargos (Gerente de Vendas, Vendedor, Motorista).
+
+**Cadastro e Operações**
+
+![CadastroOP](Docs/CadastroOP.jpg)
  
 
