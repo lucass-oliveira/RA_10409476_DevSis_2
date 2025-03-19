@@ -176,5 +176,33 @@ Botão Seletor de cargo que exibe opções de cargos (Gerente de Vendas, Vendedo
 **Cadastro e Operações**
 
 ![CadastroOP](Docs/CadastroOP.jpg)
- 
 
+- Cabeçalho:
+
+Um título grande "Cadastro e Operações" na parte superior da página.
+Um botão "Retornar" alinhado à esquerda, que leva o usuário de volta à página principal.
+Um botão de menu no canto superior direito, que, quando clicado, revela um menu suspenso com opções
+como "Opções" e "Logout". 
+
+- Campos de Entrada:
+
+Dependendo da opção escolhida no seletor de cargo (Gerente de Vendas, Vendedor, Motorista), os
+campos de entrada do formulário podem variar para atender as informações específicas de cada cargo. 
+
+Protótipo Criado para (Gerente de Vendas), mas no caso de outros cargos, como Vendedor ou Motorista,
+alguns campos poderão ser ocultados ou adaptados. 
+
+Isso torna o sistema dinâmico e adaptado às necessidades específicas de cada cargo.
+
+**Relatórios**
+
+ ![Relatorios](Docs/Relatorios.jpg)
+
+- Campos de Entrada:
+
+ID: Campo de entrada para o ID.
+
+- Botões:
+  
+Gerar Relatório: Um botão/link para selecionar um funcionário específico.
+Gerar Relatório Completo: Um botão/link para gerar um relatório que abranja todos os funcionários. 
