@@ -1708,7 +1708,7 @@ A aplicação dos padrões GRASP neste caso de uso resultou em:
 
 O diagrama de componentes abaixo representa a arquitetura modular de alto nível do sistema **StaffTrack**. A modularização foi realizada com base nos requisitos funcionais e não funcionais definidos no **TG3**, considerando os princípios de reutilização, baixo acoplamento e separação de responsabilidades.
 
-![TG5](Docs/TG5.png)
+!![TG5](Docs/TG5.png)
 
 ## Descrição dos Componentes e Conexões
 
